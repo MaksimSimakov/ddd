@@ -32,7 +32,7 @@ namespace Stranici
             };
             Label nimetus = new Label { Text = "Jaanuari Pilt", FontSize = 30 };
             Image img = new Image { Source = "jaanuar.jpg" };
-            Label kirjeldus = new Label { Text = "Jaanuar on esimine kuu!!! \nTeine talvine kuu!!!" };
+            Label kirjeldus = new Label { Text = "Jaanuar on esimine kuu!!! \nПервый месяц года в юлианском и григорианском календарях, одиннадцатый месяц староримского года, начинавшегося до реформы Цезаря с марта." };
             grd.Children.Add(nimetus, 0, 0);
             grd.Children.Add(img, 0, 1);
             grd.Children.Add(kirjeldus, 0, 2);

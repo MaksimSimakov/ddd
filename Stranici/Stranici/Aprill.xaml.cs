@@ -32,7 +32,7 @@ namespace Stranici
             };
             Label nimetus = new Label { Text = "Aprilli Pilt", FontSize = 30 };
             Image img = new Image { Source = "aprill.jpg" };
-            Label kirjeldus = new Label { Text = "Aprill on neljas kuu!!! \nTeine kevade kuu!!!" };
+            Label kirjeldus = new Label { Text = "Aprill on neljas kuu!!! \nЧетвёртый месяц года в юлианском и григорианском календарях, второй месяц староримского года, начинавшегося до реформы Цезаря с марта. Один из четырёх месяцев длиной в 30 дней.!!!" };
             grd.Children.Add(nimetus, 0, 0);
             grd.Children.Add(img, 0, 1);
             grd.Children.Add(kirjeldus, 0, 2);

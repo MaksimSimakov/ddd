@@ -30,9 +30,9 @@ namespace Stranici
                       new ColumnDefinition{Width=new GridLength(1,GridUnitType.Star)}
                 }
             };
-            Label nimetus = new Label { Text = "Märtsi Pilt", FontSize = 30 };
-            Image img = new Image { Source = "marts.jpg" };
-            Label kirjeldus = new Label { Text = "Mai on viies kuu!!! \nKolmas kevade kuu!!!" };
+            Label nimetus = new Label { Text = "mai Pilt", FontSize = 30 };
+            Image img = new Image { Source = "mai.jpg" };
+            Label kirjeldus = new Label { Text = "Mai on viies kuu!!! \n9 мая, день победы!!!" };
             grd.Children.Add(nimetus, 0, 0);
             grd.Children.Add(img, 0, 1);
             grd.Children.Add(kirjeldus, 0, 2);

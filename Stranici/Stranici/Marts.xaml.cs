@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace Stranici
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Märts : ContentPage
+    public partial class Marts : ContentPage
     {
-        public Märts()
+        public Marts()
         {
             InitializeComponent();
             Grid grd = new Grid
@@ -32,7 +32,7 @@ namespace Stranici
             };
             Label nimetus = new Label { Text = "Märtsi Pilt", FontSize = 30 };
             Image img = new Image { Source = "marts.jpg" };
-            Label kirjeldus = new Label { Text = "Märts on kolmas kuu!!! \nEsimine kevade kuu!!!" };
+            Label kirjeldus = new Label { Text = "Märts on kolmas kuu!!! \n8 марта, день женщин!!!" };
             grd.Children.Add(nimetus, 0, 0);
             grd.Children.Add(img, 0, 1);
             grd.Children.Add(kirjeldus, 0, 2);

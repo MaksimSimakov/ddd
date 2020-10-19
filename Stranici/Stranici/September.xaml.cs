@@ -15,6 +15,28 @@ namespace Stranici
         public September()
         {
             InitializeComponent();
+            Grid grd = new Grid
+            {
+                RowDefinitions =
+                {
+                       new RowDefinition {Height=new GridLength(1,GridUnitType.Star)},
+                       new RowDefinition { Height = new GridLength(3, GridUnitType.Star) },
+                       new RowDefinition { Height = new GridLength(2, GridUnitType.Star) }
+
+
+                },
+                ColumnDefinitions =
+                {
+                      new ColumnDefinition{Width=new GridLength(1,GridUnitType.Star)}
+                }
+            };
+            Label nimetus = new Label { Text = "Septembri Pilt", FontSize = 30 };
+            Image img = new Image { Source = "september.jpg" };
+            Label kirjeldus = new Label { Text = "September on üheksas kuu!!! \nПервое сентября, день знаний!!!" };
+            grd.Children.Add(nimetus, 0, 0);
+            grd.Children.Add(img, 0, 1);
+            grd.Children.Add(kirjeldus, 0, 2);
+            Content = grd;
         }
     }
 }

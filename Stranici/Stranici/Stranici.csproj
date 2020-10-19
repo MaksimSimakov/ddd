@@ -16,6 +16,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Marts.xaml.cs">
+      <DependentUpon>Marts.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
     <EmbeddedResource Update="Aprill.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -37,7 +43,7 @@
     <EmbeddedResource Update="Mai.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Märts.xaml">
+    <EmbeddedResource Update="Marts.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="November.xaml">
